@@ -28,4 +28,19 @@ Here is a list of potential security problems in this application that you shoul
 * Hard-coded credentials
 * Publicly accessible pages
 
+# The Vulnerabilities i found
+
+1- First one is XSS or Cross-Site Scripting
+
+![Image of mahmoudashraf1344](https://github.com/0x1mahmoud/SonarSource-AppSec-Practice/blob/main/XSS.png)
+
+Payload: <img src=x onerror alert(document.cookie)>
+
+2- Second one is Path Injection
+
+3- Third one is SSTI or Server-Side Tamplate Injection
+
+![Image of mahmoudashraf1344](https://github.com/0x1mahmoud/SonarSource-AppSec-Practice/blob/main/SSIT.png)
+
+
 
